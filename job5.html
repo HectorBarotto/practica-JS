@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solución 5</title>
+</head>
+<body onload="mostrarPersonas()">
+    <span>
+        <h2>Solución 5   -> Agregar personas y mostrar una persona ......:</h2>
+    </span>
+    <div style="margin-bottom: 20px ;">
+        <h3>Nueva persona:</h3>
+        <span>DNI:</span>
+        <input type="text" id="dni" style="width:80px;"/>
+        <span>NOMBRE:</span>
+        <input type="text" id="nombre" style="width:150px;"/>
+        <span>APELLIDO:</span>
+        <input type="text" id="apellido" style="width:150px;"/>
+        <button type="button" onclick="agregarPersona()" style="margin-left:50px;"><b><i>Agregar</i></b></button>
+    </div>
+    <div style="margin-bottom: 20px ;">
+        <span>DNI:</span>
+        <input type="text" id="dniBuscar" style="width:80px;"/>
+        <button type="button" onclick="validarDni()" style="margin-left:50px;"><b><i>Buscar</i></b></button>
+    </div>
+</body>
+<script type="text/javascript" src="./code.js"></script>
+</html>
